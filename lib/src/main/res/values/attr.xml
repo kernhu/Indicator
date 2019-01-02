@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SmoothLimeIndicator">
+        <attr name="sli_style" format="reference"/>
+        <attr name="sli_color" format="color"/>
+        <attr name="sli_stroke_width" format="dimension"/>
+        <attr name="sli_stroke_separator_length" format="dimension"/>
+        <attr name="sli_sections_count" format="integer"/>
+        <attr name="sli_speed" format="float"/>
+        <attr name="sli_progressiveStart_speed" format="float"/>
+        <attr name="sli_progressiveStop_speed" format="float"/>
+        <attr name="sli_interpolator" format="enum">
+            <enum name="sli_interpolator_accelerate" value="0"/>
+            <enum name="sli_interpolator_linear" value="1"/>
+            <enum name="sli_interpolator_acceleratedecelerate" value="2"/>
+            <enum name="sli_interpolator_decelerate" value="3"/>
+        </attr>
+        <attr name="sli_reversed" format="boolean"/>
+        <attr name="sli_mirror_mode" format="boolean"/>
+        <attr name="sli_colors" format="reference"/>
+        <attr name="sli_progressiveStart_activated" format="boolean"/>
+        <attr name="sli_background" format="reference"/>
+        <attr name="sli_generate_background_with_colors" format="boolean"/>
+        <attr name="sli_gradients" format="boolean"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="CircularLimeIndicator">
+        <attr name="cli_style" format="reference"/>
+        <attr name="cli_color" format="color"/>
+        <attr name="cli_colors" format="reference"/>
+        <attr name="cli_stroke_width" format="dimension"/>
+        <attr name="cli_min_sweep_angle" format="integer"/>
+        <attr name="cli_max_sweep_angle" format="integer"/>
+        <attr name="cli_sweep_speed" format="float"/>
+        <attr name="cli_rotation_speed" format="float"/>
+    </declare-styleable>
+
+</resources>

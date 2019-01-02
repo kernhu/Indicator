@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ProgressBar.Horizontal" parent="@android:style/Widget.Holo.ProgressBar.Horizontal">
+    </style>
+
+    <style name="OrdinaryIndicator" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="sli_color">@color/sli_ordinary_color</item>
+        <item name="sli_sections_count">@integer/sli_ordinary_sections_count</item>
+        <item name="sli_speed">@string/sli_ordinary_speed</item>
+        <item name="sli_stroke_width">@dimen/sli_ordinary_stroke_width</item>
+        <item name="sli_stroke_separator_length">@dimen/sli_ordinary_stroke_separator_length</item>
+        <item name="sli_reversed">@bool/sli_ordinary_reversed</item>
+        <item name="sli_mirror_mode">@bool/sli_ordinary_mirror_mode</item>
+        <item name="sli_interpolator">@integer/sli_ordinary_interpolator</item>
+    </style>
+
+    <style name="SmoothLimeIndicator" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="sli_color">@color/sli_default_color</item>
+        <item name="sli_sections_count">@integer/sli_default_sections_count</item>
+        <item name="sli_speed">@string/sli_default_speed</item>
+        <item name="sli_stroke_width">@dimen/sli_default_stroke_width</item>
+        <item name="sli_stroke_separator_length">@dimen/sli_default_stroke_separator_length</item>
+        <item name="sli_reversed">@bool/sli_default_reversed</item>
+        <item name="sli_mirror_mode">@bool/sli_default_mirror_mode</item>
+        <item name="sli_interpolator">@integer/sli_default_interpolator</item>
+    </style>
+
+    <style name="CircularLimeIndicator" parent="android:Widget.Holo.ProgressBar">
+        <item name="cli_color">@color/cpb_default_color</item>
+        <item name="cli_stroke_width">@dimen/cpb_default_stroke_width</item>
+        <item name="cli_min_sweep_angle">@integer/cpb_default_min_sweep_angle</item>
+        <item name="cli_max_sweep_angle">@integer/cpb_default_max_sweep_angle</item>
+        <item name="cli_sweep_speed">@string/cpb_default_sweep_speed</item>
+        <item name="cli_rotation_speed">@string/cpb_default_rotation_speed</item>
+    </style>
+
+    <style name="GoogleLimeIndicator" parent="SmoothLimeIndicator">
+        <item name="sli_stroke_separator_length">8dp</item>
+        <item name="sli_sections_count">2</item>
+        <item name="sli_speed">1.7</item>
+        <item name="sli_progressiveStart_speed">2</item>
+        <item name="sli_progressiveStop_speed">3.4</item>
+        <item name="sli_interpolator">sli_interpolator_acceleratedecelerate</item>
+        <item name="sli_mirror_mode">true</item>
+        <item name="sli_reversed">true</item>
+        <item name="sli_colors">@array/gplus_colors</item>
+        <item name="sli_progressiveStart_activated">true</item>
+        <item name="sli_generate_background_with_colors">false</item>
+    </style>
+
+    <style name="DefaultSmoothLimeIndicator" parent="SmoothLimeIndicator">
+        <item name="sli_stroke_separator_length">0dp</item>
+        <item name="sli_sections_count">3</item>
+        <item name="sli_speed">1.7</item>
+        <item name="android:interpolator">@android:anim/decelerate_interpolator</item>
+        <item name="sli_colors">@array/gplus_colors</item>
+        <item name="sli_gradients">true</item>
+    </style>
+
+    <style name="PocketLimeIndicator" parent="SmoothLimeIndicator">
+        <item name="sli_stroke_separator_length">4dp</item>
+        <item name="sli_sections_count">4</item>
+        <item name="sli_speed">1</item>
+        <item name="android:interpolator">@anim/pocket_interpolator</item>
+        <item name="sli_colors">@array/pocket_bar_colors</item>
+        <item name="sli_progressiveStart_activated">true</item>
+        <item name="sli_generate_background_with_colors">false</item>
+    </style>
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sli_default_color">#33b5e5</color>
+    <dimen name="sli_default_stroke_separator_length">4dp</dimen>
+    <dimen name="sli_default_stroke_width">4dp</dimen>
+    <integer name="sli_default_sections_count">4</integer>
+    <integer name="sli_default_interpolator">0</integer>
+    <item name="sli_default_speed" format="float" type="string">1</item>
+    <bool name="sli_default_reversed">false</bool>
+    <bool name="sli_default_mirror_mode">false</bool>
+    <bool name="sli_default_progressiveStart_activated">false</bool>
+
+    <!---->
+    <color name="cpb_default_color">#33b5e5</color>
+    <dimen name="cpb_default_stroke_width">4dp</dimen>
+    <integer name="cpb_default_min_sweep_angle">20</integer>
+    <integer name="cpb_default_max_sweep_angle">300</integer>
+    <item name="cpb_default_sweep_speed" format="float" type="string">1</item>
+    <item name="cpb_default_rotation_speed" format="float" type="string">1</item>
+
+
+    <!-- 普通进度指示器 -->
+    <color name="sli_ordinary_color">#FF00D2B3</color>
+    <dimen name="sli_ordinary_stroke_separator_length">4dp</dimen>
+    <dimen name="sli_ordinary_stroke_width">4dp</dimen>
+    <integer name="sli_ordinary_sections_count">3</integer>
+    <integer name="sli_ordinary_interpolator">2</integer>
+    <item name="sli_ordinary_speed" format="float" type="string">1</item>
+    <bool name="sli_ordinary_reversed">true</bool>
+    <bool name="sli_ordinary_mirror_mode">true</bool>
+    <bool name="sli_ordinary_progressiveStart_activated">true</bool>
+
+</resources>

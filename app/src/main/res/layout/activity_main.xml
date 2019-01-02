@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Normal效果进度指示器"/>
+
+    <cn.walkpast.indicator.SmoothLimeIndicator
+        android:id="@+id/google_indicator"
+        style="@style/OrdinaryIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Google效果进度指示器"/>
+
+    <cn.walkpast.indicator.SmoothLimeIndicator
+        android:id="@+id/pocket_indicator"
+        style="@style/PocketLimeIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="pocket效果进度指示器"/>
+
+    <cn.walkpast.indicator.SmoothLimeIndicator
+        android:id="@+id/smooth_lime_indicator"
+        style="@style/DefaultSmoothLimeIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="pocket效果进度指示器"/>
+
+
+    <cn.walkpast.indicator.CircularLimeIndicator
+        android:id="@+id/circular_lime_indicator"
+        android:layout_width="25pt"
+        android:layout_height="25pt"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        android:indeterminateOnly="false"
+        android:visibility="visible"
+        app:cli_colors="@array/gplus_colors"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="圆形效果进度指示器"/>
+
+</LinearLayout>
