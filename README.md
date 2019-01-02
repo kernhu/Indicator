@@ -1,10 +1,12 @@
 # Indicator
 Indicator is a diversified progressbar,it's modified simple base on MaterialProgressBar.
+```
 Indicator 是一个多风格的进度指示器，它是基于gitbub上不错的开源作品MaterialProgressBar整理出来（算不上改动，我只是简单的修改了个别地方，为了更好的适应我的另一个项目，在我的另一个项目中，会把它应用到webview的加载进度条上。）
-
+```
 ![](https://github.com/KernHu/Indicator/raw/master/screenshot/demo1.gif)  
-
+```
 声明：在此特别感谢MaterialProgressBar的作者。
+```
 Thanks for https://github.com/DreaminginCodeZH/MaterialProgressBar
 
 ##  I:Add RahmenView to your project 
