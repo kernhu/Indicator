@@ -6,6 +6,25 @@ Indicator is a diversified progressbar,it's modified simple base on MaterialProg
 Thanks for https://github.com/DreaminginCodeZH/MaterialProgressBar
 
 ##  I: How to use Indicator.
+
+### Step 1. Add the JitPack repository to your build file; Add it in your root build.gradle at the end of repositories:
+```
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```	
+### Step 2. Add the dependency
+```
+dependencies {
+    implementation 'com.github.KernHu:Indicator:1.1'
+}
+```	
+
+
+
 ### 1.Add the Indicator to the layout.xml file where you want to display the list;
 ```
       <cn.walkpast.rahmen.RahmenView
@@ -69,21 +88,7 @@ Thanks for https://github.com/DreaminginCodeZH/MaterialProgressBar
 
 ## II: Add RahmenView to your project
 
-### Step 1. Add the JitPack repository to your build file; Add it in your root build.gradle at the end of repositories:
-```
-allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
-```	
-### Step 2. Add the dependency
-```
-	dependencies {
-	         implementation 'com.github.KernHu:RahmenView:v1.4'
-	}
-```	
+
 ## III: Contact me
 
 Email: vsky580@gmail.com  
